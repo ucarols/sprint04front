@@ -1,0 +1,103 @@
+.login {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.login .logo {
+  width: 100px; 
+  margin-bottom: 20px;
+}
+
+.login h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.formulariologin {
+  display: flex;
+  flex-direction: column;
+}
+
+.grupoformulario {
+  margin-bottom: 15px;
+}
+
+.grupoformulario label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #000;
+}
+
+.grupoformulario input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #f0f0f0;
+}
+
+.botaoenviar {
+  padding: 10px 20px;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.botaoenviar:hover {
+  background-color: #008bb5;
+}
+
+@media (max-width: 768px) {
+  .login {
+      max-width: 90%;
+      padding: 30px 15px;
+  }
+
+  .login .logo {
+      width: 80px;
+  }
+
+  .login h2 {
+      font-size: 24px;
+  }
+
+  .grupoformulario input {
+      font-size: 16px;
+  }
+
+  .botaoenviar {
+      padding: 10px 15px;
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login .logo {
+      width: 70px;
+  }
+
+  .login h2 {
+      font-size: 22px;
+  }
+
+  .grupoformulario input {
+      font-size: 14px;
+  }
+
+  .botaoenviar {
+      padding: 10px 10px;
+      font-size: 14px;
+  }
+}

@@ -1,0 +1,75 @@
+
+.banner {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: left;
+  overflow: hidden;
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background-image: url('/fundo.png'); 
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.conteudoBanner {
+  position: relative;
+  z-index: 1;
+  margin-right: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.conteudoBanner h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  margin-bottom: 10px;
+  margin-top: -40px;
+}
+
+.conteudoBanner p {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.descricao {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ivy {
+  color: #00aaff;
+}
+
+.botaoCta {
+  padding: 10px 20px;
+  background-color: #f6f6f7;
+  color: #00aaff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 50px;
+}
+
+.botaoCta:hover {
+  background-color: #00aaff;
+  color: white;
+}

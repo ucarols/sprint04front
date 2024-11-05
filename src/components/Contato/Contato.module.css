@@ -1,0 +1,85 @@
+
+.secaoContato {
+    padding: 30px 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.secaoContato h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.secaoContato p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.formularioContato {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.grupoFormulario {
+    margin-bottom: 15px;
+}
+
+.grupoFormulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000;
+}
+
+.grupoFormulario input,
+.grupoFormulario textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.grupoFormulario textarea {
+    height: 80px;
+}
+
+.botaoEnviar {
+    padding: 8px 16px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.botaoEnviar:hover {
+    background-color: #008bb5;
+}
+
+@media (max-width: 768px) {
+    .secaoContato {
+        padding: 20px 5px;
+    }
+
+    .secaoContato h2 {
+        font-size: 20px;
+    }
+
+    .secaoContato p {
+        font-size: 14px;
+    }
+
+    .formularioContato {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}

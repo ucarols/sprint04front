@@ -1,0 +1,29 @@
+/* Vantagens.module.css */
+
+.vantagens {
+    padding: 64px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.vantagens h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.vantagens-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+@media (min-width: 768px) {
+    .vantagens-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+}

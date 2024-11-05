@@ -1,0 +1,24 @@
+
+.footer {
+    background-color: darkturquoise; 
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footerLogo {
+    max-width: 200px; 
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .footerLogo {
+        max-width: 150px; 
+    }
+}
